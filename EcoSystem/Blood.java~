@@ -1,0 +1,10 @@
+class Blood extends Life{
+  
+  Blood(int health){
+    super(health);
+  }
+  
+  public void hunger(){
+    loseHealth(1);
+  }
+}
